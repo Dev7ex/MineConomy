@@ -1,6 +1,7 @@
 # MineConomy
 ![SpigotMC Downloads](https://img.shields.io/spiget/downloads/79650?label=Downloads)
 ![GitHub](https://img.shields.io/github/license/dev7ex/mineconomy)
+[![CodeFactor](https://www.codefactor.io/repository/github/dev7ex/mineconomy/badge)](https://www.codefactor.io/repository/github/dev7ex/mineconomy)
 
 ## What is MineConomy?
 
