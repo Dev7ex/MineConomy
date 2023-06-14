@@ -1,0 +1,16 @@
+api-version: 1.16
+author: Dev7ex
+database: false
+depend: [FacilisCommon]
+description: ${project.description}
+load: POSTWORLD
+loadbefore: []
+main: com.dev7ex.mineconomy.MineConomyPlugin
+name: MineConomy
+prefix: MineConomy
+softdepend: []
+version: ${project.version}
+website: ${project.url}
+commands:
+  balance:
+  economy:

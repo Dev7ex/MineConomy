@@ -1,0 +1,44 @@
+# __  __ _             _____
+#|  \/  (_)           / ____|
+#| \  / |_ _ __   ___| |     ___  _ __   ___  _ __ ___  _   _
+#| |\/| | | '_ \ / _ \ |    / _ \| '_ \ / _ \| '_ ` _ \| | | |
+#| |  | | | | | |  __/ |___| (_) | | | | (_) | | | | | | |_| |
+#|_|  |_|_|_| |_|\___|\_____\___/|_| |_|\___/|_| |_| |_|\__, |
+#                                                        __/ |
+#                                                        |___/
+# Copyright (c) 2023 by Dev7ex
+# Version: ${project.version}
+prefix: '§8[§6MineConomy§8]§r'
+no-permission: '§cIm sorry, but you do not have permission to perform this command. Please contact the server administrators if you believe that is in error.'
+player-not-found: '%prefix% §cThis player was not found'
+player-command: '%prefix% §cThis command can only performed by a player'
+config-version: ${project.version}
+
+commands:
+  balance:
+    usage: '%prefix% §cUsage: /balance'
+    message: '%prefix% §7You have §a%value%'
+    message-other: '%prefix% §a%player_name% §7has §a%value%'
+  economy:
+    add:
+      usage: '%prefix% §cUsage: /economy add <User> <Value>'
+      wrong-argument: '%prefix% §cPlease enter a valid number'
+      successfully-add: '%prefix% §7You have increased §a%player_name% §7account balance by §a%value%'
+    help:
+      - ''
+      - '§f§m               §r§r %prefix% §f§m               '
+      - ''
+      - '§7» §7/economy §6add §7<User> <Value>'
+      - '§7» §7/economy §6remove §7<User> <Value>'
+      - '§7» §7/economy §6set §7<User> <Value>'
+      - ''
+      - '§f§m               §r§r %prefix% §f§m               '
+      - ''
+    remove:
+      usage: '%prefix% §cUsage: /economy remove <User> <Value>'
+      wrong-argument: '%prefix% §cPlease enter a valid number'
+      successfully-removed: '%prefix% §7You have decreased §a%player_name% §7account balance by §a%value%'
+    set:
+      usage: '%prefix% §cUsage: /economy set <User> <Value>'
+      wrong-argument: '%prefix% §cPlease enter a valid number'
+      successfully-set: '%prefix% §7You have set §a%player_name% §7account balance to §a%value%'
